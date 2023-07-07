@@ -1,0 +1,133 @@
+/* section2 */
+#section2 {
+  width: 100%;
+  height: 550vh;
+  padding: 20vw 0;
+  background-color: #ead0bc79;
+  h2 {
+    font-size: 15vw;
+    font-weight: 100;
+    text-align: right;
+    margin-bottom: 5vw;
+    margin-right: -20vw;
+    color: #4b3d30;
+    font-family: Manrope;
+  }
+  .subTitle {
+    width: 60vw;
+    text-align: left;
+    font-size: 5vw;
+    line-height: 1;
+    font-weight: 200;
+    margin-left: auto;
+    margin-bottom: 5vw;
+    color: #4b3d30;
+    text-transform: uppercase;
+    font-family: Manrope;
+  }
+  .aboutBox1 {
+    .imgWrap {
+      margin-left: 5vw;
+      width: 40vw;
+      height: 50vw;
+      position: relative;
+
+      .img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background-image: url(../../images/main1__me02.jpg);
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center center;
+      }
+    }
+    .text {
+      width: 70vw;
+      padding-left: 20vw;
+      margin-top: -4vw;
+      line-height: 1.6;
+      font-size: 20px;
+      font-family: "NexonLv1GothicLow";
+      color: #4b3d30;
+    }
+  }
+  .aboutBox2 {
+    padding: 20vw 0;
+    display: flex;
+    align-items: end;
+    .title {
+      width: 50%;
+      text-align: right;
+      font-size: 9vw;
+      color: #be968b;
+      font-weight: 300;
+      margin-right: -2vw;
+      position: relative;
+      z-index: 100;
+      padding-bottom: 20vw;
+      mix-blend-mode: difference;
+      font-family: Manrope;
+    }
+    .text {
+      width: 50%;
+      line-height: 1.6;
+
+      .img {
+        background-image: url(../../images/main1__me03.jpg);
+        background-position: center;
+        background-size: cover;
+        width: 30vw;
+        height: 40vw;
+      }
+      .desc {
+        font-size: 20px;
+        font-family: "NexonLv1GothicLow";
+        color: #4b3d30;
+        padding: 3vw;
+        padding-top: 0;
+      }
+    }
+  }
+  .aboutBox3 {
+    display: flex;
+    align-items: end;
+    .title {
+      width: 50%;
+      text-align: right;
+      font-size: 11vw;
+      color: #be968b;
+      font-weight: 300;
+      padding-left: 42vw;
+      position: relative;
+      z-index: 100;
+      margin-bottom: 12vw;
+      mix-blend-mode: difference;
+      font-family: Manrope;
+    }
+    .text {
+      width: 50%;
+      display: flex;
+      align-items: flex-start;
+
+      .img {
+        margin-left: -40vw;
+        width: 30vw;
+        height: 40vw;
+        background-position: center;
+        background-size: cover;
+        background-image: url(../../images/main1__me01.jpg);
+      }
+      .desc {
+        font-size: 20px;
+        font-family: "NexonLv1GothicLow";
+        color: #4b3d30;
+        padding: 1vw;
+        // margin-left: 2vw;
+        margin-top: 30vw;
+        line-height: 1.6;
+      }
+    }
+  }
+}
