@@ -1,6 +1,103 @@
-import React from "react";
+import React, { useEffect } from "react";
+import gsap from "gsap";
+import ScrollTrigger from "gsap/ScrollTrigger";
 
-const About = () => {
+const About1 = () => {
+  useEffect(() => {
+    gsap.registerPlugin(ScrollTrigger);
+
+    gsap.to("#section2 h2", {
+      xPercent: -30,
+      ease: "none",
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: "#section2 h2",
+        start: "top bottom",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+      },
+    });
+
+    gsap.to(".aboutBox1 .imgWrap", {
+      yPercent: -30,
+      ease: "none",
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: ".aboutBox1 .imgWrap",
+        start: "top bottom",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+      },
+    });
+
+    gsap.to(".aboutBox2 .img", {
+      yPercent: -30,
+      ease: "none",
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: ".aboutBox2 .img",
+        start: "top bottom",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+      },
+    });
+
+    gsap.to(".aboutBox2 .title", {
+      xPercent: 10,
+      ease: "none",
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: ".aboutBox2 .title",
+        start: "top bottom",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+      },
+    });
+
+    gsap.to(".aboutBox2 .desc", {
+      yPercent: -10,
+      ease: "none",
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: ".aboutBox2 .desc",
+        start: "top bottom",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+      },
+    });
+
+    gsap.to(".aboutBox3 .img", {
+      yPercent: -30,
+      ease: "none",
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: ".aboutBox3 .img",
+        start: "top bottom",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+      },
+    });
+
+    gsap.to(".aboutBox3 .title", {
+      xPercent: -10,
+      ease: "none",
+      duration: 0.5,
+      scrollTrigger: {
+        trigger: ".aboutBox3 .title",
+        start: "top bottom",
+        end: "bottom top",
+        markers: false,
+        scrub: true,
+      },
+    });
+  }, []);
+
   return (
     <section id="section2" data-bgcolor="#ead0bc79">
       <h2 className="title">ABOUT ME</h2>
@@ -64,4 +161,4 @@ const About = () => {
   );
 };
 
-export default About;
+export default About1;

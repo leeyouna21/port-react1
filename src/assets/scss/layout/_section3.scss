@@ -8,12 +8,11 @@
   align-items: center;
   justify-content: center;
   z-index: 2; /* Add this line */
-}
-
-#section3 .text {
-  font-size: 8vw;
-  white-space: nowrap;
-  text-transform: uppercase;
-  font-family: Manrope;
-  font-weight: 300;
+  .text {
+    font-size: 8vw;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-family: Manrope;
+    font-weight: 300;
+  }
 }

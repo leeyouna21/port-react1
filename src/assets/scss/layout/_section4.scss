@@ -1,9 +1,12 @@
 #parallax__cont {
   overscroll-behavior: none;
-  width: 400%;
-  height: 100vh;
+  width: 400vw;
+  height: 200vh;
   display: flex;
   flex-wrap: nowrap;
+  position: sticky;
+  top: 0;
+  left: 0;
 
   .parallax__item {
     width: 100%;
@@ -97,6 +100,7 @@
         top: 10vw;
         text-align: center;
         font-weight: 100;
+        font-family: Manrope;
       }
       .site {
         width: 11vw;
@@ -111,6 +115,7 @@
         top: 10vw;
         text-align: center;
         font-weight: 100;
+        font-family: Manrope;
       }
     }
     .button2 {
@@ -129,6 +134,7 @@
         top: -17vw;
         text-align: center;
         font-weight: 100;
+        font-family: Manrope;
       }
       .site2 {
         width: 11vw;
@@ -143,6 +149,7 @@
         top: -17vw;
         text-align: center;
         font-weight: 100;
+        font-family: Manrope;
       }
     }
   }
